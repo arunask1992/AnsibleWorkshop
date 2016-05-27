@@ -1,0 +1,3 @@
+To run the playbook :
+
+	ansible-playbook site.yml -i inventory/test.inv --user=vagrant --ask-pass -vvvv
