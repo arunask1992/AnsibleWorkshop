@@ -1,2 +1,9 @@
 [testserver]
 192.168.33.20
+[databases]
+192.168.33.20
+[all:vars]
+ansible_access_public_key_file=id_rsa.pub
+
+
+
